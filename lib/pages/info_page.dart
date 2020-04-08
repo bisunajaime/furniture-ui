@@ -157,7 +157,7 @@ class _InfoPageState extends State<InfoPage>
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         fit: BoxFit.cover,
-                        image: AssetImage('$pathToImg${widget.tag}.jpg'),
+                        image: AssetImage('$pathToImg/${widget.tag}.jpg'),
                       ),
                     ),
                   ),
