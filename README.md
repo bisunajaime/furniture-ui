@@ -1,4 +1,4 @@
-# Furniture E-Commerce UI
+# Furniture E-Commerce UI Challenge
 
 ## Samples
 
