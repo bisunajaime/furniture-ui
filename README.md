@@ -1,4 +1,4 @@
-# Travel E-Commerce UI
+# Furniture E-Commerce UI
 
 ## Samples
 
