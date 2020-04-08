@@ -33,6 +33,12 @@ class _FeaturedWidgetState extends State<FeaturedWidget>
   }
 
   @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTapDown: (TapDownDetails tdd) {

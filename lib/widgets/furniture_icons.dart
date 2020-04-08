@@ -35,6 +35,12 @@ class _FurnitureIconState extends State<FurnitureIcon>
   }
 
   @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Container(
       height: 70,

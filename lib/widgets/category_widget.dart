@@ -42,6 +42,12 @@ class _CategoryWidgetState extends State<CategoryWidget>
   }
 
   @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTapDown: (TapDownDetails tdd) {

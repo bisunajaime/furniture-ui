@@ -18,4 +18,4 @@ const Color bellGradientTwo = Color(0xff000c78);
 const Color rectGradeintOne = Color(0xff080037);
 const Color rectGradientTwo = Color(0xff062596);
 
-const String pathToImg = "assets/images/";
+const String pathToImg = "assets/images";
